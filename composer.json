@@ -1,0 +1,27 @@
+{
+    "name": "datalayerru/pushmenu-widget-yii2",
+    "version": "0.1.1",
+    "description": "Wrapper for PushMenu",
+    "keywords": ["yii2", "widget", "push menu", "slide menu"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "email": "info@datalayer.ru",
+        "source": "https://github.com/DataLayerRU/PushMenuWidgetYII2"
+    },
+    "authors": [
+        {
+            "name": "Sergey Zinchenko",
+            "email": "info@datalayer.ru",
+            "homepage": "http://datalayer.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "datalayerru\\PushMenuWidget\\": ""
+        }
+    }
+}
