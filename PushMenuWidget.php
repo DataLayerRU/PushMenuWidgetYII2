@@ -1,6 +1,6 @@
 <?php
 
-namespace datalayerru\PushMenuWidget;
+namespace professionalweb\PushMenuWidget;
 
 class PushMenuWidget extends \yii\base\Widget
 {

@@ -8,7 +8,7 @@
 
 use yii\helpers\Url;
 use yii\helpers\Html;
-use datalayerru\PushMenuWidget\assets\PushMenuAsset;
+use professionalweb\PushMenuWidget\assets\PushMenuAsset;
 
 PushMenuAsset::register($this);
 ?>
