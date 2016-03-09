@@ -1,6 +1,6 @@
 <?php
 
-namespace datalayerru\PushMenuWidget;
+namespace professionalweb\PushMenuWidget;
 
 class PushMenuWidget extends \yii\base\Widget
 {
@@ -25,20 +25,6 @@ class PushMenuWidget extends \yii\base\Widget
      */
     public $header = '';
 
-    /**
-     * Is horizontal
-     *
-     * @var boolean
-     */
-    public $isHorizontal = false;
-
-    /**
-     * Is on bottom
-     *
-     * @var boolean
-     */
-    public $isOnBottom = false;
-
     public function run()
     {
         if (!isset($this->options['id'])) {
@@ -48,9 +34,7 @@ class PushMenuWidget extends \yii\base\Widget
                 [
                 'header' => $this->header,
                 'options' => $this->options,
-                'items' => $this->items,
-                'isHorizontal' => $this->isHorizontal,
-                'isOnBottom' => $this->isOnBottom
+                'items' => $this->items
         ]);
     }
 }
